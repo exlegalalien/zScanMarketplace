@@ -17,13 +17,7 @@
 
 name: "Zimperium zScan"
 
-on:
-  workflow_dispatch:
-    branches: [ "master" ]
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+on: workflow_dispatch
 
 permissions:
   contents: read
